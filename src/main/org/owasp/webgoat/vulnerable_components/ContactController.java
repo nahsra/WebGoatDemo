@@ -45,4 +45,5 @@ public abstract class ContactController {
 
     // different controllers will have different session resolvers
     protected abstract Optional<Session> currentSession();
+    
 }
